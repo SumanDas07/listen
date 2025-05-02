@@ -235,6 +235,13 @@ const songs = [
         <div class="subtitle">K.K.</div>`,
         poster: "20.jpg",
     },
+
+    {
+        id:34,
+        songName: `Cheques <br>
+        <div class="subtitle">Shubh</div>`,
+        poster: "20.jpg",
+    },
 ]
 
 
