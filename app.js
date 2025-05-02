@@ -590,7 +590,7 @@ const next_music = () =>{
         index++;
     }
     music.src = `audio/${index}.mp3`;
-    poster_master_play.src = `img/${index}.jpg`;
+    poster_master_play.src = `${index}.jpg`;
     music.play();
     masterPlay.classList.remove('bi-play-fill');
     masterPlay.classList.add('bi-pause-fill');
