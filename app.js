@@ -6,63 +6,63 @@ const songs = [
         id:1,
         songName: `On My Way <br>
         <div class="subtitle">Alan Walker</div>`,
-        poster: "1.jpg",
+        poster: "img/1.jpg",
     },
 
     {
         id:2,
         songName: `Faded <br>
         <div class="subtitle">Alan Walker</div>`,
-        poster: "2.jpg",
+        poster: "img/2.jpg",
     },
 
     {
         id:3,
         songName: `On And On <br>
         <div class="subtitle">Daniel Levi</div>`,
-        poster: "3.jpg",
+        poster: "img/3.jpg",
     },
 
     {
         id:4,
         songName: `Warriyo <br>
         <div class="subtitle">Mortals</div>`,
-        poster: "4.jpg",
+        poster: "img/4.jpg",
     },
 
     {
         id:5,
         songName: `Gazi <br>
         <div class="subtitle">Ertugrul</div>`,
-        poster: "5.jpg",
+        poster: "img/5.jpg",
     },
 
     {
         id:6,
         songName: `Electronic Music <br>
         <div class="subtitle">Electro</div>`,
-        poster: "6.jpg",
+        poster: "img/6.jpg",
     },
 
     {
         id:7,
         songName: `Agar Tum Saath Ho <br>
         <div class="subtitle">Alka Yagnik and Arijit Singh</div>`,
-        poster: "7.jpg",
+        poster: "img/7.jpg",
     },
 
     {
         id:8,
         songName: `Suna Hai <br>
         <div class="subtitle">Neha Kakkar</div>`,
-        poster: "8.jpg",
+        poster: "img/8.jpg",
     },
 
     {
         id:9,
         songName: `Dilbar <br>
         <div class="subtitle">Neha Kakkar</div>`,
-        poster: "9.jpg",
+        poster: "img/9.jpg",
     },
 
     {
@@ -70,49 +70,49 @@ const songs = [
         songName: `Duniya <br>
         <div class="subtitle">Akhil Pasreja and Dhvani Bhanushali
         </div>`,
-        poster: "10.jpg",
+        poster: "img/10.jpg",
     },
 
     {
         id:11,
         songName: `Lagdi Lahore Di <br>
         <div class="subtitle">Guru Randhawa and Tulsi Kumar</div>`,
-        poster: "11.jpg",
+        poster: "img/11.jpg",
     },
 
     {
         id:12,
         songName: `Putt Jatt Da <br>
         <div class="subtitle">Diljit Dosanjh</div>`,
-        poster: "12.jpg",
+        poster: "img/12.jpg",
     },
 
     {
         id:13,
         songName: `Baarishein <br>
         <div class="subtitle">Atif Aslam</div>`,
-        poster: "13.jpg",
+        poster: "img/13.jpg",
     },
 
     {
         id:14,
         songName: `Vaaste <br>
         <div class="subtitle">Dhvani Bhanushali</div>`,
-        poster: "14.jpg",
+        poster: "img/14.jpg",
     },
 
     {
         id:15,
         songName: `Lut Gaye <br>
         <div class="subtitle">Jubin Nautiyal and Manoj Muntashir</div>`,
-        poster: "15.jpg",
+        poster: "img/15.jpg",
     },
 
     {
         id:16,
         songName: `Meri Zindagi Hai Tu <br>
         <div class="subtitle">Jubin Nautiyal</div>`,
-        poster: "16.jpg",
+        poster: "img/16.jpg",
     },
 
     {
@@ -120,7 +120,7 @@ const songs = [
         songName: `Zaroori Tha <br>
         <div class="subtitle">Rahat Fateh Ali Khan
         </div>`,
-        poster: "17.jpg",
+        poster: "img/17.jpg",
     },
 
     {
@@ -128,21 +128,91 @@ const songs = [
         songName: `Pasoori <br>
         <div class="subtitle">Sethi and Shae Gill
         </div>`,
-        poster: "18.jpg",
+        poster: "img/18.jpg",
     },
 
     {
         id:19,
         songName: `Insane <br>
         <div class="subtitle">AP Dhillon</div>`,
-        poster: "19.jpg",
+        poster: "img/19.jpg",
     },
 
     {
         id:20,
         songName: `Dummy <br>
         <div class="subtitle">Unknown</div>`,
-        poster: "20.jpg",
+        poster: "img/20.jpg",
+    },
+
+    {
+        id:21,
+        songName: `Yapper Bandi <br>
+        <div class="subtitle">Unknown</div>`,
+        poster: "img/20.jpg",
+    },
+
+    {
+        id:22,
+        songName: `Jaana Samjho Na <br>
+        <div class="subtitle">Unknown</div>`,
+        poster: "img/20.jpg",
+    },
+
+    {
+        id:23,
+        songName: `Tere Pyaar Mein <br>
+        <div class="subtitle">Arijit Singh</div>`,
+        poster: "img/20.jpg",
+    },
+
+    {
+        id:24,
+        songName: `Akhiyaan Gulaab <br>
+        <div class="subtitle">Unknown</div>`,
+        poster: "img/20.jpg",
+    },
+
+    {
+        id:25,
+        songName: `BESABRIYAAN <br>
+        <div class="subtitle">Aarmaan Malik</div>`,
+        poster: "img/20.jpg",
+    },
+
+    {
+        id:26,
+        songName: `Nadaaniyan <br>
+        <div class="subtitle">Akshath</div>`,
+        poster: "img/20.jpg",
+    },
+
+    {
+        id:27,
+        songName: `Sajni <br>
+        <div class="subtitle">Arijit Singh</div>`,
+        poster: "img/20.jpg",
+    },
+
+    {
+        id:28,
+        songName: `Aaj Ki Raat <br>
+        <div class="subtitle">Sachin-Jigar/Madhubanti</div>`,
+        poster: "img/20.jpg",
+    },
+
+    {
+        id:29,
+        songName: `Pyaar Hota Kayi Baar Hai <br>
+        <div class="subtitle">Arijit Singh/Pritam</div>`,
+        poster: "img/20.jpg",
+    },
+
+    {
+        id:30,
+        songName: `Jab tak <br>
+        <div class="subtitle">Armaan Malik</div>`,
+        poster: "img/20.jpg",
     },
 ]
 
