@@ -224,8 +224,8 @@ const songs = [
 
     {
         id:32,
-        songName: `Chuttamalle <br>
-        <div class="subtitle">Shilpa Rao</div>`,
+        songName: `Tere Bin <br>
+        <div class="subtitle">Atif Aslam</div>`,
         poster: "20.jpg",
     },
 ]
